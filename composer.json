@@ -1,0 +1,21 @@
+{
+    "name": "thefuriouscoder/doctrine-cache-factory",
+    "description": "A simple static wrapper for Docrine Cache drivers.",
+    "keywords": ["doctrine", "cache", "factory", "wrapper"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Diego Rin Martín",
+            "email": "diego.rin@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+          "TFC\\Cache\\": "src"
+        }
+    },
+    "require": {
+        "php": ">=5.3.3",
+        "doctrine/cache": "~1.5.1"
+    }
+}
